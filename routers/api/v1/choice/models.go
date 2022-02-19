@@ -1,8 +1,19 @@
 package choice
 
-type user struct {
-	ID       string
-	UserName string
+import "time"
+
+type choice struct {
+	ID        uint
+	Limit     int
+	Interval  int
+	OrderDate *time.Time
+	IsSubject bool
+	Days      string
+	LessonId  uint
+	UserId    uint
+	CreatedAt *time.Time
+	UpdatedAt *time.Time
+	DeletedAt *time.Time
 }
 
-type users []user
+type choices []choices
