@@ -1,4 +1,4 @@
-package user
+package choice
 
 type user struct {
 	ID       string

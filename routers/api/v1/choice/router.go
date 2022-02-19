@@ -1,4 +1,4 @@
-package user
+package choice
 
 import (
 	"github.com/gin-gonic/gin"

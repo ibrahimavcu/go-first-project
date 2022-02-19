@@ -1,12 +1,10 @@
-package server
+package main
 
 import (
-	"os"
-
-	"berkantbegdilili.com/routers"
+	"berkantbegdilili.com/first-project/routers"
 )
 
 func main() {
-	r := routers.InitRouter()
-	r.Run(":" + os.Getenv("SERVER_PORT"))
+	r := routers.InitRouters()
+	r.Run(":3000")
 }

@@ -1,4 +1,4 @@
-package user
+package choice
 
 func (u *user) add() error {
 
