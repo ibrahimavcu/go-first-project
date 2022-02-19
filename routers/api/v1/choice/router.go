@@ -5,5 +5,5 @@ import (
 )
 
 func RegisterRouter(r *gin.RouterGroup) {
-	r.POST("/register", register)
+	r.POST("/:id", findById)
 }
