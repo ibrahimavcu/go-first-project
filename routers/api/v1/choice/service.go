@@ -1,26 +1,30 @@
 package choice
 
-func (u *user) add() error {
+import (
+	"berkantbegdilili.com/first-project/database"
+)
+
+func (c *choice) add() error {
+	return nil
+}
+
+func (c *choice) getOneById(id uint) error {
+	db := database.Connection()
+	result := db.Where(choice{ID: id}).First(c)
+	return result.Error
+}
+
+func (c *choice) getAll() error {
 
 	return nil
 }
 
-func (u *user) getOneById(id string) error {
+func (c *choice) update() error {
 
 	return nil
 }
 
-func (u *users) getAll() error {
-
-	return nil
-}
-
-func (u *user) update() error {
-
-	return nil
-}
-
-func (u *user) delete() error {
+func (c *choice) delete() error {
 
 	return nil
 }
