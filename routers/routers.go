@@ -1,8 +1,8 @@
 package routers
 
 import (
-	v1 "berkantbegdilili.com/first-project/routers/api/v1"
 	"github.com/gin-gonic/gin"
+	v1 "ibrahimavcu.com/go-first-project/routers/api/v1"
 )
 
 func InitRouters() *gin.Engine {

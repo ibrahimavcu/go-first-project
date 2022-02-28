@@ -1,8 +1,8 @@
 package main
 
 import (
-	"berkantbegdilili.com/first-project/config"
-	"berkantbegdilili.com/first-project/routers"
+	"ibrahimavcu.com/go-first-project/config"
+	"ibrahimavcu.com/go-first-project/routers"
 )
 
 func main() {

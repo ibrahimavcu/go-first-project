@@ -1,4 +1,4 @@
-module berkantbegdilili.com/first-project
+module ibrahimavcu.com/go-first-project
 
 go 1.17
 

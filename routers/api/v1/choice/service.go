@@ -1,7 +1,7 @@
 package choice
 
 import (
-	"berkantbegdilili.com/first-project/database"
+	"ibrahimavcu.com/go-first-project/database"
 )
 
 func (c *choice) add() error {
